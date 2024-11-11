@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, #00aaff, #ff66b2); /* Gradiente vertical de azul para rosa */
+}
+
+canvas {
+  display: block;
+}
+
+h1{
+  color: rgb(0,0,0);
+  text-align: center;
+  font-family: 'Pixelify Sans', cursive;
+
+}
+
+body{
+ background-color: blue;
+  display: center;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+  left:720px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #bdffbd;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+}
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  
+}
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2em;
+}
+.item {
+  width: 20%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(10%);
+}
+
+.item2 {
+  transform: scale(0.8, 0.8) rotate(0deg);
+  transition: all 0.35s;
+}
